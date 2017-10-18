@@ -10,3 +10,8 @@
   background-color: #ffffff;
 }
 作用：不用再费心思去定义网站的通用样式表，只需要按照需要去单独修改。
+
+<head>引用：
+1. <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+2. <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+3. <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
