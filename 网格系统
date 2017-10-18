@@ -1,0 +1,73 @@
+/bootstrap重点内容。/
+
+网格（Grid）：简单地说，网页设计中的网格用于组织内容，让网站易于浏览，并降低用户端的负载。
+
+网格系统，在bootstrap官方文档中是这么描述的：
+Bootstrap 包含了一个响应式的、移动设备优先的、不固定的网格系统，可以随着设备或视口大小的增加而适当地扩展到 12 列。它包含了用于简单的布局选项的预定义类,
+包含了用于生成更多语义布局的功能强大的混合类。
+即：响应式网格系统随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多12列。
+1   1   1   1   1   1   1   1   1   1   1   1   
+      4               4               4
+      4                        8
+        6                        6
+                      12
+                     
+例：
+
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>bootstrap网页</title>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		  <style>
+			  body{
+				  padding: 0;
+				  text-align: center;
+				  margin: 0;
+			  }
+			  .box{
+				  width: -webkit-calc(25% - 12px);    //增加link和script后删除
+				  width: -moz-calc(25% - 12px);       //增加link和script后删除
+				  width: -o-calc(25% - 12px);         //增加link和script后删除
+				  width: calc(25% - 12px);           //增加link和script后删除
+				  height: 200px;
+				  float: left;
+				  border: 1px solid #f60;
+				  padding: 5px;
+			  }
+		  </style>
+	 </head>	
+	<body>
+    	
+    	<div class="box">
+    		<header>box1</header>
+    		<p>只是一个盒子，占body宽度的四分之一</p>
+    	</div>
+
+    	<div class="box">
+    		<header>box2</header>
+    		<p>只是一个盒子，占body宽度的四分之一</p>
+    	</div>
+
+    	<div class="box">
+    		<header>box3</header>
+    		<p>只是一个盒子，占body宽度的四分之一</p>
+    	</div>
+
+    	<div class="box">
+    		<header>box4</header>
+    		<p>只是一个盒子，占body宽度的四分之一</p>
+    	</div>
+
+   		<script type="text/javascript">
+
+    		$(document).ready(function(){
+    			
+    			
+    		});
+   		</script>
+	</body>
+</html>
