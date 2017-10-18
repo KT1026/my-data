@@ -1,0 +1,25 @@
+<meta>标签共有两个属性，它们分别是http-equiv属性和name属性
+
+HTTP-EQUIV(标题信息): 它回应给浏览器一些有用的信息，以帮助正确和精确地显示网页内容。
+常用的HTTP-EQUIV类型有：
+1.Content-Type和Content-Language 
+用法：<Meta http-equiv="Content-Type" Content="text/html; Charset=gb2312"> // GB2312:国标汉字码
+<Meta http-equiv="Content-Language" Content="zh-CN">
+2.Refresh(刷新）：让网页多长时间（秒）刷新自己，或在多长时间后让网页自动链接到其它网页。
+用法：<Meta http-equiv="Refresh" Content="30">
+or <Meta http-equiv="Refresh" Content="5; Url=http://www.xia8.net">
+注意：其中的5是指停留5秒钟后自动刷新到URL网址。 
+
+name: name的content指定实际内容.
+1.Keywords (关键字name = 'Keywords'):
+说明：为搜索引擎提供的关键字列表
+注意：各关键词间用英文逗号“,”隔开;
+META的通常用处是指定搜索引擎用来提高搜索质量的关键词。
+当数个META元素提供文档语言从属信息时，搜索引擎会使用lang特性来过滤并通过用户的语言优先参照来显示搜索结果
+用法：<Meta name="Kyewords" Lang="EN" Content="vacation,greece,sunshine"> 
+     or <Meta name="Kyewords" Lang="FR" Content="vacances,grè:ce,soleil">
+2.Description (简介)
+说明：Description用来告诉搜索引擎你的网站主要内容。
+用法：<Meta name="Description" Content="你网页的简述">
+3.viewport(视口/显示窗口）：确保适当的绘制和触屏缩放
+用法：<meta name="viewport" content="width=device-width, initial-scale=1.0">  //initial-scale=1.0表示满屏
