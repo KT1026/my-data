@@ -3,4 +3,4 @@ fadeTo()
 .fadeTo(speed, opacity, callback)
 speed必需:规定效果的时长--'slow'; 'fast'; '毫秒'.
 opacity必需:不透明度。
-callback:可选
+callback:可选.
