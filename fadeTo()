@@ -1,6 +1,0 @@
-fadeTo()
-渐变为给定的不透明度（值介于0~1之间）
-.fadeTo(speed, opacity, callback)
-speed必需:规定效果的时长--'slow'; 'fast'; '毫秒'.
-opacity必需:不透明度。
-callback:可选.
