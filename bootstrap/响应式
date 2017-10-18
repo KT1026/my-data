@@ -1,0 +1,12 @@
+
+响应式布局：页面会根据不同设备的不同分辨率自动响应不同的布局方式。
+
+在引入bootstrap之后，它会有一套默认的css样式，比如body的默认样式如下：
+.body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571492;
+  color: #333333;
+  background-color: #ffffff;
+}
+作用：不用再费心思去定义网站的通用样式表，只需要按照需要去单独修改。
