@@ -6,8 +6,8 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571492;
-  color: #333333;
-  background-color: #ffffff;
+  color: #333333;    //灰色，接近黑色
+  background-color: #ffffff;  //白色
 }
 作用：不用再费心思去定义网站的通用样式表，只需要按照需要去单独修改。
 
