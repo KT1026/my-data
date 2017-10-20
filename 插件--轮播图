@@ -1,4 +1,11 @@
 <div id="myCarousel" class="carousel slide">
+            <!--轮播指标-->
+            <ol class = 'carousel indicator'>
+                <li data-target = '#myCarousel' data-slide-to = '0' class = 'active'></li>   //data属性：1. data-target
+                <li data-target = '#myCarousel' data-slide-to = '1'></li>                               2. data-slide-to: 传递原始滑动索引，从0开始 
+                <li data-target = '#myarousel' data-slide-to = '2'></li>                      
+            </ol>
+            <!--轮播图-->
     		<div class="carousel-inner">
     			<div class="item active">
     				<img src="https://static1.bcjiaoyu.com/bootstrap-banner01.jpg" alt="1">
@@ -10,7 +17,16 @@
     				<img src="https://static1.bcjiaoyu.com/bootstrap-banner03.jpg" alt="3">
     			</div>
     		</div>
-    	</div>
+            
+            <!--轮播导航区-->
+            <a class = 'carousel-control left'  href = '#myCarousel' data-slide = 'prev'>               3. data-slide: 接受关键字prev or next,改变幻灯片对于当前位置的位置。
+                <span class = 'glyphicon glyphivcon-chevron-left' aria-hidden = 'true'><span>   //glyphicon:图标库， chevron: 左右箭头图标
+            </a>
+            <a class = 'carousel-control right' href = '#myCarousel' data-slide = 'next'>
+                <span class = ;glyohicon glyphicon-chevron-right' aria-hidden = 'false'><span>
+           </a>
+          
+</div>
 
 <script type="text/javascript">
 
@@ -18,7 +34,8 @@
     			$(function(){
     				$('.carousel').carousel({
     					interval: 2000,
-    					wrap: true       //
+    					wrap: true       //  wrap: true---让轮播图连续播放/循环
+                        pause:'hover'    // 鼠标移动到区域时停止轮播
     				})
     			})
     			
