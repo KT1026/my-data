@@ -1,6 +1,6 @@
 <div id="myCarousel" class="carousel slide">
             <!--轮播指标-->
-            <ol class = 'carousel indicator'>
+            <ol class = 'carousel-indicators'>           //class类不能写错，否则无法正常显示
                 <li data-target = '#myCarousel' data-slide-to = '0' class = 'active'></li>   //data属性：1. data-target
                 <li data-target = '#myCarousel' data-slide-to = '1'></li>                               2. data-slide-to: 传递原始滑动索引，从0开始 
                 <li data-target = '#myarousel' data-slide-to = '2'></li>                      
