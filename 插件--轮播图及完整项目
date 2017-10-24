@@ -38,7 +38,17 @@
  }
 </style>
 
-
+<nav class = 'navbar navbar-default' role = 'navigation'>    //默认导航条
+    <div class = 'container-fluid'>                   //container-fluid: 导航条的长度总是当前视口的长度
+        <div class = 'navbar-header'>
+            <a class = 'navbar-brand' href = '#'>橙旭园</a>
+        </div>
+        <ul class = ' nav navbar-nav navbar-right>
+           <li><a href = '#'><span class = ' plyphicon plyphicon-user'></span>注册</a></li>
+           <li><a href = '#'><span class = 'plyphicon plyphicon-log-in'></span>登录</a></li>
+        </ul>
+    </div>
+</nav>
 <div id="myCarousel" class="carousel slide">
             <!--轮播指标-->
             <ol class = 'carousel-indicators'>           //class类不能写错，否则无法正常显示
