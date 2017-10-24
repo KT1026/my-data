@@ -1,3 +1,44 @@
+<style>
+  body{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+ }
+ #myCarousel{
+    margin-top: 0;
+    margin-bottom: 40px;
+ }
+ .box{
+    height: 300px;
+    padding: 15px;
+    margin-bottom: 60px;				
+}
+ .carousel-inner .item img{
+    width: 100%;
+ }
+ .container{
+    margin-top: 60px;
+ }
+ .container .box img{
+   width: 80px;
+   border-radius: 50%;
+   margin-bottom: 15px;
+ }
+ @media (min-width: 992px){
+   .container{
+      width: 940px;
+ }
+ @media (min-width: 1200px){
+   .container {
+      width: 1170px;
+ }
+ @media (min-width: 1700px) {
+    .container {
+      width: 1470px;
+ }
+</style>
+
+
 <div id="myCarousel" class="carousel slide">
             <!--轮播指标-->
             <ol class = 'carousel-indicators'>           //class类不能写错，否则无法正常显示
@@ -28,6 +69,38 @@
            </a>
           
 </div>
+
+<div class="container">
+    	<div class="row">
+    		<div class="box col-lg-2 col-lg-offset-2 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+    			<header>
+    				<img src="https://www.cxy61.com/statics/images/index-video1.png" alt="">
+    				<p>Bill Gates</p>
+    			</header>  				
+    		</div>
+
+    		<div class="box col-lg-2 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+    			<header>
+    				<img src="https://www.cxy61.com/statics/images/index-video2.png" alt="">
+    				<p>Zarkberg</p>
+    			</header>
+    		</div>
+
+    		<div class="box col-lg-2 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+    			<header>
+    				<img src="https://www.cxy61.com/statics/images/index-video3.png" alt="">
+    				<p>Chris</p>   			
+    			</header>
+    		</div>
+
+    		<div class="box col-lg-2 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+    			<header>
+    				<img src="https://resourse.bcgame-face2face.haorenao.cn/cb.png" alt="">
+    			            <p>斌叔</p>
+    			</header>
+    		</div>
+    	</div>
+ </div>
 
 <script type="text/javascript">
 
