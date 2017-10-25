@@ -1,0 +1,25 @@
+1.导入链接文件(与之前常用不同）：
+   1. <link rel = "stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+   2. <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	 3. <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+   
+<!--核心代码-->
+<div class = "btn-group">
+  <button type = "button" class = "btn btn-primary btn-lg dropdown-toggle" data-toggle = "dropdown">
+    <span class = "glyphicon glyphicon-play-circle"></span>
+    Dropdown
+    <span class = " caret"></span>
+  </button>
+  <ul class = "dropdown-menu" role = "menu">
+    <li><a href = "链接" target = "_blank>menu1</a>
+  </ul>
+</div>
+
+<!--鼠标经过下拉菜单展开-->
+<script>
+  $(document).ready(function(){
+    $('button').hover(function(){
+      $('.dropdown-toggle').dropdown('toggle');
+    })
+  })
+</script>
