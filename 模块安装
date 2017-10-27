@@ -1,0 +1,11 @@
+1. 在需要的文件夹下创建.json文件： npm init
+
+2. 导入模块，模块会生成在 node-modules文件夹下
+npm install --save 模块名。
+如：
+   npm install --save express  --引入express模块
+   npm install --save socket.io  --引入socket模块(需将sockest.io.js文件引入html文件中，就可以在前端
+                                                 使用socket.io与服务器进行通信了）
+ HTML中引入socket: 
+                 <script src = "/socket.io/socket.io.js"></script>
+   
