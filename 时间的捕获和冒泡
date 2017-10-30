@@ -1,0 +1,12 @@
+<div id = "ancenstor">
+  <button id ="child">
+     Open the console and click me
+  </button>
+
+DOM事件模型：
+  事件过程：
+    捕获事件： window -to- Document -to- Body -to- Div#ancestor -to- Button#child
+    
+    冒泡事件：Div#ancestor -to- Body -to- Document -to- Window
+当发开者在一个元素上注册了事件后，这个事件的响应顺序是从WINDOW(最顶层）开始一级一级向下传播
+然后到了该元素后事件捕获过程结束，事件开始冒泡，一级一级向父层元素冒泡
