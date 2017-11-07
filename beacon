@@ -1,0 +1,13 @@
+beacon/ibeacon/eddstone/minibeacon plus（以蓝牙为基础）
+
+1. beacon: 可发射信号，数据，网址。 开发者研发APP 对beacon 做出处理。
+APP处理方式2种：1. 前端，APP根据用户操作触发相应的事件。
+              2. 后端，无需运行APP，只接收信息。
+APP 通过接受到的信号强度来判断与beacon设备的距离。 由后台检测并可以发起通知。
+              
+2. ibeacon： 一种Beacon 标准。包含 UUID, Major, Minor, Txpower.
+3.Eddstone: 有Google推出的 开源的 跨平台的 beacon标准。 提供了一个传输数据和URL的方法。
+
+4. minibeacon plus:包含EDDSTONE的BEACON. 最多含有6个槽， 可设置 Ibeacon, UID, URL TLM(电量和设备温度）
+
+
