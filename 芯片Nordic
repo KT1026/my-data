@@ -1,0 +1,43 @@
+种类（常用）: nRF52832, nRF51822
+
+nRF52832:
+
+基本性能：多协议广播multiprotocol radio
+
+优势: low power, for bluetooth; 兼容nRF51系列，nRF24L, nRF24AP
+      singal chip, high glexible, 2.4GHz multiprotocol SoC
+      up to +4dm output power
+      -96dmb sensitivity
+      event drive API
+
+参数: 工作电压：1.7~3.6V
+     32-bit ARM®
+     ANT, 2.4GHz ultta low powe wireless applications
+     protpcol stack(协议栈）
+     Cortex-M4F CPU处理器 with 512kB flash + 64kB RAM
+     2.4GHz radio 多协议支持：Bluetooth low energy, ANT, and 2.4GHz proprietaty. 
+     IC: bus/EasyDMA memory management,  automated shut down of all but the absolute essential peripherals required to perform a task.
+     NFC™-A tag： OOB, simplify
+     小型封装： 6x6mm 48-pin QFN/quad flat no-lead packages and 3.0x3.2mm ultra-compact wafer-level chip-scale packages (WL-CSP)
+     
+     
+处理能力（processing power）: Cortex-M4F（可单芯片处理复杂算法）
+
+soc: system on chip:有专用目的的集成电路，其中百翰完整系统并有嵌入软件的全部内容。
+IC: integrated circuit: 集成电路
+DSP: digital signal processor: 数字信号处理器，高效，高速。
+FPU: Float Point Unit: 浮点运算处理器
+RSSI: 接收信号强度指示器（received signal strength indicator）
+OOB-Out of band: 传输层协议使用外带数据，与普通数据不同的通道，快速发送到对方。
+
+
+nRF51822:
+
+参数:  2.4 GHz multi-protocol device
+       32-bit ARM 
+       Cortex M0 CPU core
+       256kB/128kB flash + 32kB/16kB RAM
+       兼容nRF24L系列
+       up to +4dm output power
+       -93dmb sensitivity
+       operating temperature: -40 ~ 105
