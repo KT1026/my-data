@@ -1,6 +1,6 @@
 beacon/ibeacon/eddstone/minibeacon plus（以蓝牙为基础）
 
-1. beacon: 可发射信号，数据，网址。 开发者研发APP 对beacon 做出处理。
+1. beacon: 可发射信号/数据/网址。 开发者研发APP 对beacon 做出处理。
 APP处理方式2种：1. 前端，APP根据用户操作触发相应的事件。
               2. 后端，无需运行APP，只接收信息。
 APP 通过接受到的信号强度来判断与beacon设备的距离。 由后台检测并可以发起通知。
