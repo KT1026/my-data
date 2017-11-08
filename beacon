@@ -9,8 +9,10 @@ Beacon帧格式：
 1. Apple 的 ibeacon： 一种Beacon 标准。包含 UUID, Major, Minor, Txpower.
 2. RadiusNetwork 的 AltBeacon.
 3. Google 的 Eddystone: 有Google推出的 开源的 跨平台的 beacon标准。 提供了一个传输数据和URL的方法。包含：UID, URL, TLM
+4. DeviceInfo
 
-4. minibeacon plus:包含EDDSTONE的BEACON. 最多含有6个槽， 可设置 Ibeacon, UID, URL TLM(电量和设备温度）
+
+minibeacon plus:包含EDDSTONE的BEACON. 最多含有6个槽， 可设置 Ibeacon, UID, URL TLM(电量和设备温度）
 
 
 beacon应用程序：
