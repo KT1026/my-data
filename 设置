@@ -1,2 +1,24 @@
-通过BeaconSETAPP 来设置参数（ibeacon）
+通过BeaconSET APP 来设置参数（ibeacon）
+
+通过BeaconSET+ APP 来设置参数（ibeacon + Eddystone + DeviceInfo）
+
 设置方法可见文件 E：\K\ Instructions_MiniBeacon_2.06 and MiniBeacon Plus_BeaconSET+_ User Manual v1.0
+
+
+
+相关:
+
+16进制：由 0-9 + A-F 组成。字母不区分大小写。
+       采用位置计数法， 位权是16为底的幂
+       规定以0x开头
+       
+       例：16进制的20（0x20）表示为10进制就是： 0 * 16^0 + 2* 16^1 = 32
+     
+       与10进制的对应关系： 0-9对应0-9， A-F 对应 10-15
+       
+       
+dBm: 10lg(X/1mW).
+     例： 0dBm = 1mW = 10lg1 = 0
+         20dBm = 100mW = 10lg100 = 20
+         
+         
