@@ -1,0 +1,4 @@
+1. For S1:
+
+BeaconSET APP 的作用： 只用来设置ibeacon参数还是可以作为接受信息的媒介？
+S1不可连接，可直接看到humility 和 temperature 信息。
