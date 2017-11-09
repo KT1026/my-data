@@ -6,3 +6,4 @@ Firmware： 写入EROM或EEPROM中的程序。
           可通过用户特定的刷新程序进行升级
           
 现有设备（新）基于固件minibeacon+, 可用BeaconSET+进行OTA.
+BeaconSET和BeaconSET+不兼容。
