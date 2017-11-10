@@ -5,6 +5,49 @@ S1不可连接，可直接看到humility 和 temperature 信息。
 
 
 2. 协议是什么？
+   蓝牙协议：
+      当前蓝牙协议包含BR/EDR, AMP, LE 三种技术
+      
+      BLE: Bluetooth Low Energy
+         1. 和传统蓝牙重叠的部分
+         2. 特有的低功耗部分
+         
+      BLE特点： 基于2.4GHz ISM频段的无线通信
+               速率要求不高，对功耗极为敏感；
+               重复己有的BR/EDR技术
+               组网方式灵活，传统蓝牙所使用的“基于连接的星形网络（由一个master和多个slave组成）”
+                           “无连接的网状网络（由多个advertiser 和多个 scanning组成）”
+               参与通信的设备的数量和种类众多，基于应用
+               安全需求
+               
+      BLE设计思路:
+         
+      基于思路设计出来的产品的最终样子
+        现有的协议框架：
+             两大部分：Bluetooth Application
+                      Bluetooth Core：
+                         Controller: (由下往上）
+                            Physical Layer: 负责通信介质（物理通道）：由于BLE属于无线通信，其通信介质是在一定范围下的频带资源（Frequency Band）;
+                                                                  BLE的市场定位是个体和民用，使用免费的ISM频段（频率范围是2.400 - 2.4835GHz）；
+                                                                  为了同时支持多个设备，将整个频带分为40份， 每份的宽带为2MHz,称作RF Channel.
+                                            
+                                            定义RF(Radio Frequency)收发的一些其他特性：发射相关（Transmitter Characteristics）：发射频率（Transmission power, 调制方式（Modulation）,高斯频移键控（Gausssian Frequency Shift Keying, GFSK））等
+                                                                                   接收相关（Receiver Characteristics）:接收灵敏度等
+                             Link Layer: 主要功能：在这些Physical Channel上收发数据， 且需要控制RF收发的相关参数。
+                                                1. Physical Layer 仅提供了40个 Physical Channel, 而BLE中参与通信的实体的数量不止，因此 Link Layer需要解决Physical Channel 的共享问题。
+                                                                                                  
+                                                2. 解决其他问题如：独享的传输通道（Logical Link）, 数据校验，重传机制，确保数据传输的可靠性等等
+                                         解决Physical Channel共享的问题：
+                                            1. 数据比较少，发送不频繁，对延迟不是很敏感的场景：使用广播通道
+                                                 从40个Physical Channel中选取3个，作为广播通道（Advertising channel);
+                                                 在广播通道上，任何参与者，收发任意
+                                                 所有参与者，共享同一个逻辑传输通道（广播通道）
+                                               存在的问题：
+                                                 收发是否成功无法判定
+                                                 效率不高，如果同一个区域很多节点广播数据
+                                                
+                        BLE Host
+                        
 
 
 3. 买产品的客户一般是什么人，产品用来做什么？
