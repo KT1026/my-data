@@ -1,7 +1,10 @@
+For MS49F2:
+   
+
 1. For S1:
 
-BeaconSET+ APP 的作用： 只用来设置ibeacon参数还是可以作为接受信息的媒介？
-S1不可连接，可直接看到humility 和 temperature 信息。
+    BeaconSET+ APP 的作用： 只用来设置ibeacon参数还是可以作为接受信息的媒介？
+    S1不可连接，可直接看到humility 和 temperature 信息。
 
 
 2. 协议是什么？
@@ -50,7 +53,7 @@ S1不可连接，可直接看到humility 和 temperature 信息。
                         
 
 
-3. 买产品的客户一般是什么人，产品用来做什么？
+3. Google Nearby:
 
 
 4. For E6 BeaconSET: 不可连接， 有光感。只有广播包没哟扫描包。
