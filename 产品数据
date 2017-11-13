@@ -1,0 +1,11 @@
+产品特点：
+
+型号：                      芯片：        BLE：       IP：           电池：                固件：           功耗：         续航：         系统：                     探测范围
+ 
+S1（N/A）                  nRF52832       4.0        66         2*AAA 1250mAh            miniBeacon+      35Au         3 years        IOS7 & Android 4.3 +       <100m   
+ibeacon&eddystone                                                 可拆
+
+E6（N/A）                   nRF52832       5.0                   230mAh CR2032纽扣电池     miniBeacon+                   5 years        same                        <50m
+
+i7 ibeacon&eddystone        nRF52832       4.0        65         1*CR2477                miniBeacon+                   2 years        same                       <100m
+accelerometer sensor(加速传感器)
