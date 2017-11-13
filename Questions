@@ -3,8 +3,10 @@ For MS49F2:
 
 1. For S1:
 
-    BeaconSET+ APP 的作用： 只用来设置ibeacon参数还是可以作为接受信息的媒介？
-    S1不可连接，可直接看到humility 和 temperature 信息。
+   可否更改状态？
+   目前是以一个成品的样子可以直接出售，客户可否进行二次开发？
+   目前使用的是BeaconSET+, 客户可否开发自己的APP?  用API包完成？
+   使用的是ibeacon 还是包括 Eddystone?
 
 
 2. 协议是什么？
@@ -53,8 +55,13 @@ For MS49F2:
                         
 
 
-3. Google Nearby:
+3. Google Nearby:  Google
+Nearby服务结合了蓝牙信标和谷歌地理位置服务(local-based service)，能够准确定位用户， Nearby尝试上下文猜测在特定时刻和地点推送最适合用户的应用程序和服务。
 
 
 4. For E6 BeaconSET: 不可连接， 有光感。只有广播包没哟扫描包。
            可以加扫描包，也可以把MAC地址放在扫描包---FOR Apple.
+
+2017-11-13 
+ 
+1. 孚盟软件怎么用？  如怎么客户建档？
