@@ -32,3 +32,15 @@
 16. Ultrasonic Welding: 超声波焊接
 
 20. PA: Power Amplifier; 功率放大器（功放）
+
+21. UPC: Universal Product Code; 商品通用条码，适用于美国和加拿大。在Amazon上可以通过UPC搜到对应产品
+
+22. EAN: European Article Number; 也是商品通用条码，和UPC近义，如其名，适用于欧洲站。
+Amazon要求的UPC是13位，EAN也是13位，如果一个卖家在Amazon.com 和Amazon.co.uk同时销售，可以将美国站UPC当成EAN填入英国站，
+这样可以达到同步产品的效果，提高刊登产品效率。
+
+23. ASIN: Amazon StandardIdentification Number; 亚马逊标准识别号，Amazon生成用来标识亚马逊商品。
+每个亚马逊经销的商品都有一个唯一对应的10位的ASIN编码。
+
+24. GCID: Amazon内部生成的品牌标识符，当你品牌在Amazon成功备案后，提供一个key attribute，
+Amazon会自动分配独一无二的Global Catalog Identifier 也就是GCID，十六位字符，包括字母和数字。
