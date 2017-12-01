@@ -44,3 +44,5 @@ Amazon要求的UPC是13位，EAN也是13位，如果一个卖家在Amazon.com �
 
 24. GCID: Amazon内部生成的品牌标识符，当你品牌在Amazon成功备案后，提供一个key attribute，
 Amazon会自动分配独一无二的Global Catalog Identifier 也就是GCID，十六位字符，包括字母和数字。
+
+25. NFC: Near Field Communication; 近场通讯
